@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints a series of numbers with commas
  * Returns: Always (Success);
