@@ -3,29 +3,30 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text according to number
+ * main - Entry
  *
- * Return: Always (success)
+ * Return: Always (0)
  */
 int main(void)
 {
-	int n, lasted;
+	int n;
+	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lasted = n % 10;
+	a = n % 10;
 
-	if (lastd > 5)
+	if (a > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastd);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
-	else if (lastd == 0)
+	else if (a == 0)
 	{
-		printf("Last digit of %d is %d and is 0\n, n, lastd);
+		printf("Last digit of %d is %d and is 0\n", n, a);
 	}
-	else if (lastd < 6 && lastd != 0)
+	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastd);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
 	}
 	return (0);
 }
