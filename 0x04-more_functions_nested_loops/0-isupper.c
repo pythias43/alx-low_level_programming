@@ -6,9 +6,12 @@
  *
  */
 
-int _isuper(int letter)
+int _isuper(int c)
 
 {
-	return (letter >= 'A' && letter <= 'Z');
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 
 }
