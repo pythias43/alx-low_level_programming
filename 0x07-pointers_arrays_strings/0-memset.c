@@ -8,7 +8,7 @@
  *
  * @s: with the constant byte @b
  *
- * @b: memory area pointer 
+ * @b: memory area pointer
  *
  * Return: a pointer to the memory
  */
@@ -22,5 +22,5 @@ char *_memset(char *s, char b, unsigned int n)
 		i++;
 	}
 
-	return(s);
+	return (s);
 }
