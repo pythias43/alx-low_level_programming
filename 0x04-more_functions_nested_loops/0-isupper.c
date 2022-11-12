@@ -6,7 +6,8 @@
  * Return: Always 0
  *
  */
-int _isupper(int c)
+int _isupper(int letter)
+
 {
 	return (letter >= 'A' && letter <= 'Z');
 }
